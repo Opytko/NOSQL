@@ -1,26 +1,26 @@
 # LAB 5
 
- 1. Ñòâîðþºìî Resource Group íà Azure Portal
+ 1. Створюємо Resource Group на Azure Portal
  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_1.png)
- 2. Íàæèìàºìî íà New
- ![redis](../screen/L5_2.png)
- 3. Âêàçóºìî íàçâó äëÿ ãðóïè ï³äïèñêó ³ ðåã³îí ³ æìåìîìî Review + Create
- ![redis](../screen/L5_3.png)
- 4. Ñòâîðþºìî Azure Redis for Cache, îáèðàºì resource group, íàçèâàºì DNS name, îáèðàºìî region, chache type recomended äàë³ Review + Create
- ![redis](../screen/L5_4.png)
- 5. Çàõîäèìî ó íàø redis ³ â Access keys íàì ïîòð³áíî âçíàòè Primary key ³ Primary connection string äëÿ çàïèñó ñòðàòåã³¿ redis
- ![redis](../screen/L5_5.png)
- 6. Ñòâîðþºìî Evens Space, îáèðàºì resource group, íàçèâàºìî Namespace name, îáèðàºìî region, Pircing tier recomended äàë³ Review + Create
- ![redis](../screen/L5_6.png)
- 7. Çàõîäèìî ó ñòâîðåíèé Event Space ³ ñòâîðþºìî Event Hub íàæàâøè êíîïêó +Event äàë³ íàì ïîòð³áíî âêàçàòè ëèøå éîãî ³ì'ÿ
- ![redis](../screen/L5_7.png)
- 8. Çàéøîâøè â íàø Event Hub ïîòð³áíî íàì ñòâîðèòè policy Shared access policies ³ äàòè íàçâó ³ äîçâ³ëè
- ![redis](../screen/L5_8.png)
- 9. Çàïóñòèâøè êîä ïðîãðàìè íàì ïîòð³áíî çàïèñàòè äàí³ ç dataset'y, ùî ìè çðîáèìî çà äîïîìîãîþ Postman
- ![redis](../screen/L5_9.png)
- 10. Ó ïðîãðàì³ Postman ìè ñòâîðþºìî íîâèé POST çàïèò äëÿ íàøî¿ ñòðàòåã³¿ redis ³ eventHub ùîá ìè çìîãëè çàâàíòàææèòè íàø³ äàíí³ ó Post ìè ïèøèìî localhost:9000/url ³ðîáèìî çàïèòè äî ñòðàòåã³é
- ![redis](../screen/L5_10.png)
- ![redis](../screen/L5_11.png)
- 11. Êîëè ìè íàòèñêàºìî íàøó êíîïêó SEND â Postman òî ìè áà÷èìî ÿê ïðîãðàì çàïèñóº äàíí³ äëÿ íàøèõ äâîõ ñòðàòåã³é: evenHub áóäå ïîêàçóâàòè äàíí³Event Hub Âàø Event Hub > Features > Proccess Data > Explore, à redis â Redis Âàø Redis Cache > Console ³ ïîòð³áíî áóäå ââåñòè â êîíñîë³ êîìàíäó hgetAll ConsoleLog
- ![redis](../screen/L5_12.png)
- ![redis](../screen/L5_13.png)
+ 2. Нажимаємо на New
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_2.png)
+ 3. Вказуємо назву для групи підписку і регіон і жмемомо Review + Create
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_3.png)
+ 4. Створюємо Azure Redis for Cache, обираєм resource group, називаєм DNS name, обираємо region, chache type recomended далі Review + Create
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_4.png)
+ 5. Заходимо у наш redis і в Access keys нам потрібно взнати Primary key і Primary connection string для запису стратегії redis
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_5.png)
+ 6. Створюємо Evens Space, обираєм resource group, називаємо Namespace name, обираємо region, Pircing tier recomended далі Review + Create
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_6.png)
+ 7. Заходимо у створений Event Space і створюємо Event Hub нажавши кнопку +Event далі нам потрібно вказати лише його ім'я
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_7.png)
+ 8. Зайшовши в наш Event Hub потрібно нам створити policy Shared access policies і дати назву і дозвіли
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_8.png)
+ 9. Запустивши код програми нам потрібно записати дані з dataset'y, що ми зробимо за допомогою Postman
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_9.png)
+ 10. У програмі Postman ми створюємо новий POST запит для нашої стратегії redis і eventHub щоб ми змогли завантажжити наші данні у Post ми пишимо localhost:9000/url іробимо запити до стратегій
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_10.png)
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_11.png)
+ 11. Коли ми натискаємо нашу кнопку SEND в Postman то ми бачимо як програм записує данні для наших двох стратегій: evenHub буде показувати данніEvent Hub Ваш Event Hub > Features > Proccess Data > Explore, а redis в Redis Ваш Redis Cache > Console і потрібно буде ввести в консолі команду hgetAll ConsoleLog
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_12.png)
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_13.png)
