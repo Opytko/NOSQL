@@ -1,19 +1,19 @@
 # 7 Lab
   1. Для 7 лабораторної роботи нам потрібно створити візуалізацію в Kibana заходим в Visualizations > Create visualizations
-  ![redis](../screen/L7_1.png)
-  ![redis](../screen/L7_2.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_1.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_2.png)
   2. При створені візуалізації нам потрібно вказати source звідки ми берем наші дані
-  ![redis](../screen/L7_5.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_5.png)
   3. Добавляємо Buckets і вказуємо параметри для Pie і Line
   - Pie
-  ![redis](../screen/L7_6.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_6.png)
   - Line  
-  ![redis](../screen/L7_7.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_7.png)
   4. Для створення фільтра нам потрібно Controls > Option List > Add
-  ![redis](../screen/L7_8.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_8.png)
   5. Щоб наші данні відобразился в Dashbord нам треба зайти туди і додати наші діаграми і фільтр
-  ![redis](../screen/L7_9.png)
-  ![redis](../screen/L7_10.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenn/L7_9.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenn/L7_10.png)
   
   Kibana DevTools
 
@@ -28,7 +28,7 @@ GET _search
     }
 }}
 ```
-![redis](../screen/L7_11.png)
+![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_11.png)
   - Фільтрація записів за датою
 ```sh
 GET _search
@@ -53,6 +53,6 @@ GET _search
   }
 }
 ```
-![redis](../screen/L7_12.png)
+![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_12.png)
 
 
