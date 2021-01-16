@@ -1,26 +1,26 @@
 # LAB 5
 
- 1. Ñòâîðþºìî Resource Group íà Azure Portal
- ![redis](../screen/L5_1.png)
- 2. Íàæèìàºìî íà New
+ 1. Ã‘Ã²Ã¢Ã®Ã°Ã¾ÂºÃ¬Ã® Resource Group Ã­Ã  Azure Portal
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_1.png)
+ 2. ÃÃ Ã¦Ã¨Ã¬Ã ÂºÃ¬Ã® Ã­Ã  New
  ![redis](../screen/L5_2.png)
- 3. Âêàçóºìî íàçâó äëÿ ãðóïè ï³äïèñêó ³ ðåã³îí ³ æìåìîìî Review + Create
+ 3. Ã‚ÃªÃ Ã§Ã³ÂºÃ¬Ã® Ã­Ã Ã§Ã¢Ã³ Ã¤Ã«Ã¿ Ã£Ã°Ã³Ã¯Ã¨ Ã¯Â³Ã¤Ã¯Ã¨Ã±ÃªÃ³ Â³ Ã°Ã¥Ã£Â³Ã®Ã­ Â³ Ã¦Ã¬Ã¥Ã¬Ã®Ã¬Ã® Review + Create
  ![redis](../screen/L5_3.png)
- 4. Ñòâîðþºìî Azure Redis for Cache, îáèðàºì resource group, íàçèâàºì DNS name, îáèðàºìî region, chache type recomended äàë³ Review + Create
+ 4. Ã‘Ã²Ã¢Ã®Ã°Ã¾ÂºÃ¬Ã® Azure Redis for Cache, Ã®Ã¡Ã¨Ã°Ã ÂºÃ¬ resource group, Ã­Ã Ã§Ã¨Ã¢Ã ÂºÃ¬ DNS name, Ã®Ã¡Ã¨Ã°Ã ÂºÃ¬Ã® region, chache type recomended Ã¤Ã Ã«Â³ Review + Create
  ![redis](../screen/L5_4.png)
- 5. Çàõîäèìî ó íàø redis ³ â Access keys íàì ïîòð³áíî âçíàòè Primary key ³ Primary connection string äëÿ çàïèñó ñòðàòåã³¿ redis
+ 5. Ã‡Ã ÃµÃ®Ã¤Ã¨Ã¬Ã® Ã³ Ã­Ã Ã¸ redis Â³ Ã¢ Access keys Ã­Ã Ã¬ Ã¯Ã®Ã²Ã°Â³Ã¡Ã­Ã® Ã¢Ã§Ã­Ã Ã²Ã¨ Primary key Â³ Primary connection string Ã¤Ã«Ã¿ Ã§Ã Ã¯Ã¨Ã±Ã³ Ã±Ã²Ã°Ã Ã²Ã¥Ã£Â³Â¿ redis
  ![redis](../screen/L5_5.png)
- 6. Ñòâîðþºìî Evens Space, îáèðàºì resource group, íàçèâàºìî Namespace name, îáèðàºìî region, Pircing tier recomended äàë³ Review + Create
+ 6. Ã‘Ã²Ã¢Ã®Ã°Ã¾ÂºÃ¬Ã® Evens Space, Ã®Ã¡Ã¨Ã°Ã ÂºÃ¬ resource group, Ã­Ã Ã§Ã¨Ã¢Ã ÂºÃ¬Ã® Namespace name, Ã®Ã¡Ã¨Ã°Ã ÂºÃ¬Ã® region, Pircing tier recomended Ã¤Ã Ã«Â³ Review + Create
  ![redis](../screen/L5_6.png)
- 7. Çàõîäèìî ó ñòâîðåíèé Event Space ³ ñòâîðþºìî Event Hub íàæàâøè êíîïêó +Event äàë³ íàì ïîòð³áíî âêàçàòè ëèøå éîãî ³ì'ÿ
+ 7. Ã‡Ã ÃµÃ®Ã¤Ã¨Ã¬Ã® Ã³ Ã±Ã²Ã¢Ã®Ã°Ã¥Ã­Ã¨Ã© Event Space Â³ Ã±Ã²Ã¢Ã®Ã°Ã¾ÂºÃ¬Ã® Event Hub Ã­Ã Ã¦Ã Ã¢Ã¸Ã¨ ÃªÃ­Ã®Ã¯ÃªÃ³ +Event Ã¤Ã Ã«Â³ Ã­Ã Ã¬ Ã¯Ã®Ã²Ã°Â³Ã¡Ã­Ã® Ã¢ÃªÃ Ã§Ã Ã²Ã¨ Ã«Ã¨Ã¸Ã¥ Ã©Ã®Ã£Ã® Â³Ã¬'Ã¿
  ![redis](../screen/L5_7.png)
- 8. Çàéøîâøè â íàø Event Hub ïîòð³áíî íàì ñòâîðèòè policy Shared access policies ³ äàòè íàçâó ³ äîçâ³ëè
+ 8. Ã‡Ã Ã©Ã¸Ã®Ã¢Ã¸Ã¨ Ã¢ Ã­Ã Ã¸ Event Hub Ã¯Ã®Ã²Ã°Â³Ã¡Ã­Ã® Ã­Ã Ã¬ Ã±Ã²Ã¢Ã®Ã°Ã¨Ã²Ã¨ policy Shared access policies Â³ Ã¤Ã Ã²Ã¨ Ã­Ã Ã§Ã¢Ã³ Â³ Ã¤Ã®Ã§Ã¢Â³Ã«Ã¨
  ![redis](../screen/L5_8.png)
- 9. Çàïóñòèâøè êîä ïðîãðàìè íàì ïîòð³áíî çàïèñàòè äàí³ ç dataset'y, ùî ìè çðîáèìî çà äîïîìîãîþ Postman
+ 9. Ã‡Ã Ã¯Ã³Ã±Ã²Ã¨Ã¢Ã¸Ã¨ ÃªÃ®Ã¤ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¨ Ã­Ã Ã¬ Ã¯Ã®Ã²Ã°Â³Ã¡Ã­Ã® Ã§Ã Ã¯Ã¨Ã±Ã Ã²Ã¨ Ã¤Ã Ã­Â³ Ã§ dataset'y, Ã¹Ã® Ã¬Ã¨ Ã§Ã°Ã®Ã¡Ã¨Ã¬Ã® Ã§Ã  Ã¤Ã®Ã¯Ã®Ã¬Ã®Ã£Ã®Ã¾ Postman
  ![redis](../screen/L5_9.png)
- 10. Ó ïðîãðàì³ Postman ìè ñòâîðþºìî íîâèé POST çàïèò äëÿ íàøî¿ ñòðàòåã³¿ redis ³ eventHub ùîá ìè çìîãëè çàâàíòàææèòè íàø³ äàíí³ ó Post ìè ïèøèìî localhost:9000/url ³ðîáèìî çàïèòè äî ñòðàòåã³é
+ 10. Ã“ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Â³ Postman Ã¬Ã¨ Ã±Ã²Ã¢Ã®Ã°Ã¾ÂºÃ¬Ã® Ã­Ã®Ã¢Ã¨Ã© POST Ã§Ã Ã¯Ã¨Ã² Ã¤Ã«Ã¿ Ã­Ã Ã¸Ã®Â¿ Ã±Ã²Ã°Ã Ã²Ã¥Ã£Â³Â¿ redis Â³ eventHub Ã¹Ã®Ã¡ Ã¬Ã¨ Ã§Ã¬Ã®Ã£Ã«Ã¨ Ã§Ã Ã¢Ã Ã­Ã²Ã Ã¦Ã¦Ã¨Ã²Ã¨ Ã­Ã Ã¸Â³ Ã¤Ã Ã­Ã­Â³ Ã³ Post Ã¬Ã¨ Ã¯Ã¨Ã¸Ã¨Ã¬Ã® localhost:9000/url Â³Ã°Ã®Ã¡Ã¨Ã¬Ã® Ã§Ã Ã¯Ã¨Ã²Ã¨ Ã¤Ã® Ã±Ã²Ã°Ã Ã²Ã¥Ã£Â³Ã©
  ![redis](../screen/L5_10.png)
  ![redis](../screen/L5_11.png)
- 11. Êîëè ìè íàòèñêàºìî íàøó êíîïêó SEND â Postman òî ìè áà÷èìî ÿê ïðîãðàì çàïèñóº äàíí³ äëÿ íàøèõ äâîõ ñòðàòåã³é: evenHub áóäå ïîêàçóâàòè äàíí³Event Hub Âàø Event Hub > Features > Proccess Data > Explore, à redis â Redis Âàø Redis Cache > Console ³ ïîòð³áíî áóäå ââåñòè â êîíñîë³ êîìàíäó hgetAll ConsoleLog
+ 11. ÃŠÃ®Ã«Ã¨ Ã¬Ã¨ Ã­Ã Ã²Ã¨Ã±ÃªÃ ÂºÃ¬Ã® Ã­Ã Ã¸Ã³ ÃªÃ­Ã®Ã¯ÃªÃ³ SEND Ã¢ Postman Ã²Ã® Ã¬Ã¨ Ã¡Ã Ã·Ã¨Ã¬Ã® Ã¿Ãª Ã¯Ã°Ã®Ã£Ã°Ã Ã¬ Ã§Ã Ã¯Ã¨Ã±Ã³Âº Ã¤Ã Ã­Ã­Â³ Ã¤Ã«Ã¿ Ã­Ã Ã¸Ã¨Ãµ Ã¤Ã¢Ã®Ãµ Ã±Ã²Ã°Ã Ã²Ã¥Ã£Â³Ã©: evenHub Ã¡Ã³Ã¤Ã¥ Ã¯Ã®ÃªÃ Ã§Ã³Ã¢Ã Ã²Ã¨ Ã¤Ã Ã­Ã­Â³Event Hub Ã‚Ã Ã¸ Event Hub > Features > Proccess Data > Explore, Ã  redis Ã¢ Redis Ã‚Ã Ã¸ Redis Cache > Console Â³ Ã¯Ã®Ã²Ã°Â³Ã¡Ã­Ã® Ã¡Ã³Ã¤Ã¥ Ã¢Ã¢Ã¥Ã±Ã²Ã¨ Ã¢ ÃªÃ®Ã­Ã±Ã®Ã«Â³ ÃªÃ®Ã¬Ã Ã­Ã¤Ã³ hgetAll ConsoleLog
  ![redis](../screen/L5_12.png)
  ![redis](../screen/L5_13.png)
