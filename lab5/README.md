@@ -1,26 +1,26 @@
 # LAB 5
 
- 1. —Ú‚Ó˛∫ÏÓ Resource Group Ì‡ Azure Portal
- ![redis](../screen/L5_1.png)
- 2. Õ‡ÊËÏ‡∫ÏÓ Ì‡ New
- ![redis](../screen/L5_2.png)
- 3. ¬Í‡ÁÛ∫ÏÓ Ì‡Á‚Û ‰Îˇ „ÛÔË Ô≥‰ÔËÒÍÛ ≥ Â„≥ÓÌ ≥ ÊÏÂÏÓÏÓ Review + Create
- ![redis](../screen/L5_3.png)
- 4. —Ú‚Ó˛∫ÏÓ Azure Redis for Cache, Ó·Ë‡∫Ï resource group, Ì‡ÁË‚‡∫Ï DNS name, Ó·Ë‡∫ÏÓ region, chache type recomended ‰‡Î≥ Review + Create
- ![redis](../screen/L5_4.png)
- 5. «‡ıÓ‰ËÏÓ Û Ì‡¯ redis ≥ ‚ Access keys Ì‡Ï ÔÓÚ≥·ÌÓ ‚ÁÌ‡ÚË Primary key ≥ Primary connection string ‰Îˇ Á‡ÔËÒÛ ÒÚ‡ÚÂ„≥ø redis
- ![redis](../screen/L5_5.png)
- 6. —Ú‚Ó˛∫ÏÓ Evens Space, Ó·Ë‡∫Ï resource group, Ì‡ÁË‚‡∫ÏÓ Namespace name, Ó·Ë‡∫ÏÓ region, Pircing tier recomended ‰‡Î≥ Review + Create
- ![redis](../screen/L5_6.png)
- 7. «‡ıÓ‰ËÏÓ Û ÒÚ‚ÓÂÌËÈ Event Space ≥ ÒÚ‚Ó˛∫ÏÓ Event Hub Ì‡Ê‡‚¯Ë ÍÌÓÔÍÛ +Event ‰‡Î≥ Ì‡Ï ÔÓÚ≥·ÌÓ ‚Í‡Á‡ÚË ÎË¯Â ÈÓ„Ó ≥Ï'ˇ
- ![redis](../screen/L5_7.png)
- 8. «‡È¯Ó‚¯Ë ‚ Ì‡¯ Event Hub ÔÓÚ≥·ÌÓ Ì‡Ï ÒÚ‚ÓËÚË policy Shared access policies ≥ ‰‡ÚË Ì‡Á‚Û ≥ ‰ÓÁ‚≥ÎË
- ![redis](../screen/L5_8.png)
- 9. «‡ÔÛÒÚË‚¯Ë ÍÓ‰ ÔÓ„‡ÏË Ì‡Ï ÔÓÚ≥·ÌÓ Á‡ÔËÒ‡ÚË ‰‡Ì≥ Á dataset'y, ˘Ó ÏË ÁÓ·ËÏÓ Á‡ ‰ÓÔÓÏÓ„Ó˛ Postman
- ![redis](../screen/L5_9.png)
- 10. ” ÔÓ„‡Ï≥ Postman ÏË ÒÚ‚Ó˛∫ÏÓ ÌÓ‚ËÈ POST Á‡ÔËÚ ‰Îˇ Ì‡¯Óø ÒÚ‡ÚÂ„≥ø redis ≥ eventHub ˘Ó· ÏË ÁÏÓ„ÎË Á‡‚‡ÌÚ‡ÊÊËÚË Ì‡¯≥ ‰‡ÌÌ≥ Û Post ÏË ÔË¯ËÏÓ localhost:9000/url ≥Ó·ËÏÓ Á‡ÔËÚË ‰Ó ÒÚ‡ÚÂ„≥È
- ![redis](../screen/L5_10.png)
- ![redis](../screen/L5_11.png)
- 11.  ÓÎË ÏË Ì‡ÚËÒÍ‡∫ÏÓ Ì‡¯Û ÍÌÓÔÍÛ SEND ‚ Postman ÚÓ ÏË ·‡˜ËÏÓ ˇÍ ÔÓ„‡Ï Á‡ÔËÒÛ∫ ‰‡ÌÌ≥ ‰Îˇ Ì‡¯Ëı ‰‚Óı ÒÚ‡ÚÂ„≥È: evenHub ·Û‰Â ÔÓÍ‡ÁÛ‚‡ÚË ‰‡ÌÌ≥Event Hub ¬‡¯ Event Hub > Features > Proccess Data > Explore, ‡ redis ‚ Redis ¬‡¯ Redis Cache > Console ≥ ÔÓÚ≥·ÌÓ ·Û‰Â ‚‚ÂÒÚË ‚ ÍÓÌÒÓÎ≥ ÍÓÏ‡Ì‰Û hgetAll ConsoleLog
- ![redis](../screen/L5_12.png)
- ![redis](../screen/L5_13.png)
+ 1. –°—Ç–≤–æ—Ä—é—î–º–æ Resource Group –Ω–∞ Azure Portal
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_1.png)
+ 2. –ù–∞–∂–∏–º–∞—î–º–æ –Ω–∞ New
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_2.png)
+ 3. –í–∫–∞–∑—É—î–º–æ –Ω–∞–∑–≤—É –¥–ª—è –≥—Ä—É–ø–∏ –ø—ñ–¥–ø–∏—Å–∫—É —ñ —Ä–µ–≥—ñ–æ–Ω —ñ –∂–º–µ–º–æ–º–æ Review + Create
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_3.png)
+ 4. –°—Ç–≤–æ—Ä—é—î–º–æ Azure Redis for Cache, –æ–±–∏—Ä–∞—î–º resource group, –Ω–∞–∑–∏–≤–∞—î–º DNS name, –æ–±–∏—Ä–∞—î–º–æ region, chache type recomended –¥–∞–ª—ñ Review + Create
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_4.png)
+ 5. –ó–∞—Ö–æ–¥–∏–º–æ —É –Ω–∞—à redis —ñ –≤ Access keys –Ω–∞–º –ø–æ—Ç—Ä—ñ–±–Ω–æ –≤–∑–Ω–∞—Ç–∏ Primary key —ñ Primary connection string –¥–ª—è –∑–∞–ø–∏—Å—É —Å—Ç—Ä–∞—Ç–µ–≥—ñ—ó redis
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_5.png)
+ 6. –°—Ç–≤–æ—Ä—é—î–º–æ Evens Space, –æ–±–∏—Ä–∞—î–º resource group, –Ω–∞–∑–∏–≤–∞—î–º–æ Namespace name, –æ–±–∏—Ä–∞—î–º–æ region, Pircing tier recomended –¥–∞–ª—ñ Review + Create
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_6.png)
+ 7. –ó–∞—Ö–æ–¥–∏–º–æ —É —Å—Ç–≤–æ—Ä–µ–Ω–∏–π Event Space —ñ —Å—Ç–≤–æ—Ä—é—î–º–æ Event Hub –Ω–∞–∂–∞–≤—à–∏ –∫–Ω–æ–ø–∫—É +Event –¥–∞–ª—ñ –Ω–∞–º –ø–æ—Ç—Ä—ñ–±–Ω–æ –≤–∫–∞–∑–∞—Ç–∏ –ª–∏—à–µ –π–æ–≥–æ —ñ–º'—è
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_7.png)
+ 8. –ó–∞–π—à–æ–≤—à–∏ –≤ –Ω–∞—à Event Hub –ø–æ—Ç—Ä—ñ–±–Ω–æ –Ω–∞–º —Å—Ç–≤–æ—Ä–∏—Ç–∏ policy Shared access policies —ñ –¥–∞—Ç–∏ –Ω–∞–∑–≤—É —ñ –¥–æ–∑–≤—ñ–ª–∏
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_8.png)
+ 9. –ó–∞–ø—É—Å—Ç–∏–≤—à–∏ –∫–æ–¥ –ø—Ä–æ–≥—Ä–∞–º–∏ –Ω–∞–º –ø–æ—Ç—Ä—ñ–±–Ω–æ –∑–∞–ø–∏—Å–∞—Ç–∏ –¥–∞–Ω—ñ –∑ dataset'y, —â–æ –º–∏ –∑—Ä–æ–±–∏–º–æ –∑–∞ –¥–æ–ø–æ–º–æ–≥–æ—é Postman
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_9.png)
+ 10. –£ –ø—Ä–æ–≥—Ä–∞–º—ñ Postman –º–∏ —Å—Ç–≤–æ—Ä—é—î–º–æ –Ω–æ–≤–∏–π POST –∑–∞–ø–∏—Ç –¥–ª—è –Ω–∞—à–æ—ó —Å—Ç—Ä–∞—Ç–µ–≥—ñ—ó redis —ñ eventHub —â–æ–± –º–∏ –∑–º–æ–≥–ª–∏ –∑–∞–≤–∞–Ω—Ç–∞–∂–∂–∏—Ç–∏ –Ω–∞—à—ñ –¥–∞–Ω–Ω—ñ —É Post –º–∏ –ø–∏—à–∏–º–æ localhost:9000/url —ñ—Ä–æ–±–∏–º–æ –∑–∞–ø–∏—Ç–∏ –¥–æ —Å—Ç—Ä–∞—Ç–µ–≥—ñ–π
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_10.png)
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_11.png)
+ 11. –ö–æ–ª–∏ –º–∏ –Ω–∞—Ç–∏—Å–∫–∞—î–º–æ –Ω–∞—à—É –∫–Ω–æ–ø–∫—É SEND –≤ Postman —Ç–æ –º–∏ –±–∞—á–∏–º–æ —è–∫ –ø—Ä–æ–≥—Ä–∞–º –∑–∞–ø–∏—Å—É—î –¥–∞–Ω–Ω—ñ –¥–ª—è –Ω–∞—à–∏—Ö –¥–≤–æ—Ö —Å—Ç—Ä–∞—Ç–µ–≥—ñ–π: evenHub –±—É–¥–µ –ø–æ–∫–∞–∑—É–≤–∞—Ç–∏ –¥–∞–Ω–Ω—ñEvent Hub –í–∞—à Event Hub > Features > Proccess Data > Explore, –∞ redis –≤ Redis –í–∞—à Redis Cache > Console —ñ –ø–æ—Ç—Ä—ñ–±–Ω–æ –±—É–¥–µ –≤–≤–µ—Å—Ç–∏ –≤ –∫–æ–Ω—Å–æ–ª—ñ –∫–æ–º–∞–Ω–¥—É hgetAll ConsoleLog
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_12.png)
+ ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L5_13.png)
