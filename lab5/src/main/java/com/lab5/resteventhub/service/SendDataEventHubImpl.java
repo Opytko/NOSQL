@@ -8,6 +8,7 @@ import com.microsoft.azure.eventhubs.EventHubClient;
 import com.microsoft.azure.eventhubs.EventHubException;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
@@ -22,6 +23,18 @@ import java.util.concurrent.ScheduledExecutorService;
 
 @Service
 public class SendDataEventHubImpl implements SendDataService {
+
+    @Value("${connection.namespace.name}")
+    private String namespaceName;
+
+    @Value("${connection.eventhub.name}")
+    private String eventHubName;
+
+    @Value("${connection.saskey.name}")
+    private String sasKeyName;
+
+    @Value("${connection.saskey}")
+    private String sasKey;
 
     public void sendAndLog(String url) throws IOException, EventHubException {
         final ConnectionStringBuilder connStr = new ConnectionStringBuilder()

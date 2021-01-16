@@ -1,6 +1,7 @@
 package com.lab5.resteventhub.service;
 
 import org.json.JSONArray;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisShardInfo;
@@ -15,14 +16,26 @@ import java.util.Map;
 @Service
 public class SendDataConsoleImpl implements SendDataService {
 
-    private static final boolean USE_SSL = true;
-    private static final int MAX_NUMBER = 1000;
+    @Value("${use.ssl}")
+    private boolean USE_SSL;
 
-    private final static String CACHE_HOSTNAME = "pytkoostapredis.redis.cache.windows.net";
-    private final static String CACHE_KEY = "QwDDqWeNZLHCwG3M7TE3pVLpe7qWJL+PRMtkwtnmbjE=";
-    private final static String MAP_NAME = "ConsoleLog";
-    private final static String FILE_NAME = "service.impl.Console";
-    private final static int PORT = 6380;
+    @Value("${max.number}")
+    private int MAX_NUMBER;
+
+    @Value("${cache.hostname}")
+    private String CACHE_HOSTNAME;
+
+    @Value("${cache.key}")
+    private String CACHE_KEY;
+
+    @Value("${map.name}")
+    private String MAP_NAME;
+
+    @Value("${file.name}")
+    private String FILE_NAME;
+
+    @Value("${dataservice.port}")
+    private int PORT;
 
     public void sendAndLog(String url) {
         JedisShardInfo info = new JedisShardInfo(CACHE_HOSTNAME, PORT, USE_SSL);
