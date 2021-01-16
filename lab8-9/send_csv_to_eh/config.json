@@ -1,0 +1,6 @@
+{
+  "event_hub": {
+    "conn_str": "Endpoint=sb://ostaplab9.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=KmuMwfPUN8dQDppWgVO8O/mCGykwButE719psDIcb24=",
+    "eventhub_name": "ostaplab9"
+  }
+}
