@@ -12,8 +12,8 @@
   4. Для створення фільтра нам потрібно Controls > Option List > Add
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_8.png)
   5. Щоб наші данні відобразился в Dashbord нам треба зайти туди і додати наші діаграми і фільтр
-  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenn/L7_9.png)
-  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenn/L7_10.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_9.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L7_10.png)
   
   Kibana DevTools
 
