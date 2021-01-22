@@ -4,7 +4,7 @@
   2. Наступним кроком нам потрібно встановити VM instances 
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_2.png)
      Деталі нашого Instances
-  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_4.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_4.png)
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_4_1.png)
   3. Тепер прописуємо Firewall для kibana tcp:5601 і elasic на порті tcp:9200
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_3.png)
