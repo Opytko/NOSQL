@@ -41,7 +41,7 @@
 17. В Azure Storage Explorer нам треба надати доступ до контейнера
     ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L89_22.png)
     ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L89_23.png)
-    - так само пророблюємо для папки
+    так само пророблюємо для папки
     ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L89_24.png)
 18. Повертаємося в Databricks і в ostaplab9.py вказуємо імя контейнера та акаунта`source="abfss://ostaplab9@ostaplab9.dfs.core.windows.net/"`
     `mount_point = "/mnt/ostaplab9",`
