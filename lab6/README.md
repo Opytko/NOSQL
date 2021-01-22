@@ -62,8 +62,8 @@ sudo service kibana start
 sudo service kibana status
 ```
 5. Після цього переходимо в наш інстанс та копіюємо External IP і в прописуємо порти: `:5601` та `:9200`
-![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_6.png)
-![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_6_1.png)
+![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_6.png)
+![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_6_1.png)
 ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_6_2.png)
 6. Тепер потрібно створити Logic app у Azure та створити connect у Logic app designer та заранити
 ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_7_1.png)
