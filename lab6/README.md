@@ -2,7 +2,7 @@
   1. Для 6 лабораторної роботи нам потрібно створити проект та акаунт на GCP (Google Cloud Platform)
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_1.png)
   2. Наступним кроком нам потрібно встановити VM instances 
-  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_2.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_2.png)
      Деталі нашого Instances
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_4.png)
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_4_1.png)
