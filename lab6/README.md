@@ -6,9 +6,9 @@
   
    Деталі нашого Instances
   ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_4.png)
-  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_4_1.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_4_1.png)
   3. Тепер прописуємо Firewall для kibana tcp:5601 і elasic на порті tcp:9200
-  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screenhttps://github.com/Opytko/NOSQL/blob/main/Screen/L6_3.png)
+  ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L6_3.png)
   4. Підключившись до машини через SSH
   ![redis](.https://github.com/Opytko/NOSQL/blob/main/Screen/L6_5.png)
   в консолі яка появилася прописуємо настуні команди:
