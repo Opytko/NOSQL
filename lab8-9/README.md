@@ -54,7 +54,7 @@
     ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L89_28.png)
 20. У функції filtered нам потрібно змінити поля які відповідають за парсення файлу csv, а у фалйлі `EventHubWriter.py` також можна додати ще поля чи забрати    
     ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L89_29.png)
-21. Знюємо директорію у яку ми маунтели таку
+21. Змінюємо директорію у яку ми маунтели теку
     ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L89_30.png)
 22. Далі раним директорію і запускаєм програму на пайтоні, у програмі postman нам протрібно створити REST запит POST на лінку `http://127.0.0.1:5000/eventhub`
     ![redis](https://github.com/Opytko/NOSQL/blob/main/Screen/L89_31.png)
